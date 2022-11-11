@@ -40,12 +40,5 @@ public class AlumnoDao {
         lista.remove(index);
     }
     
-    public int buscar(String nombre){
-        int index=-1;
-        for(int i=0;i<lista.size();i++){
-            if(lista.get(i).getNombre().equals(nombre));
-            index=i;
-        }
-        return index;
-    }
+
 }
